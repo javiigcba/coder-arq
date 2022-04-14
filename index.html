@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
-    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
     <link  rel="stylesheet" href="css/MiEstilo.css">
     <link rel="shortcut icon" href="resource/LOGO.png" type="image/x-icon">
     
@@ -18,23 +18,40 @@
     
         <header>
             <video id="videoindex" autoplay loop muted src="resource/videos/videofondo.mp4"></video>
-            <Nav>       
+
+            
+            <nav id="minav" class="navbar navbar-expand-lg  ">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="resource/LOGOindex.png">
+                </a>
                 
-                <div id="header">
-                    <a href="index.html"><img class="logo" src="resource/LOGOindex.png"/></a>
-                    <div id="nomysub">
-                        <h2 class="nombrearqindex" >Asis Luciano<br>Guillermo</h2>
-                        <p class="subnombreindex">Arquitectura + Urbanismo</p>
-                    </div>
-                    <ul class="menu">
-                    <li><a class="linkblanco" href="pages/ideologia.html">Ideologia</a></li>
-                    <li><a class="linkblanco" href="pages/quien_soy.html">Quien soy</a></li>
-                    <li><a class="linkblanco" href="pages/proyectos.html">Proyectos</a></li>
-                    <li><a class="linkblanco" href="pages/contacto.html">Contacto</a></li>
-                    </ul>    
+                <div class="row">
+                <h2 class="nombrearqindex" >Asis Luciano<br>Guillermo</h2>
+                <p class="subnombreindex">Arquitectura + Urbanismo</p>
                 </div>
-                
-            </Nav>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto flex-nowrap ">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="pages/ideologia.html">Ideología</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="pages/quien_soy.html">Quien soy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="pages/proyectos.html">Proyectos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+
+        
         </header>
 
         <div id="div-titulo-index">

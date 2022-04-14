@@ -5,37 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
     <link  rel="stylesheet" href="../css/MiEstilo.css">
     <link rel="shortcut icon" href="../resource/LOGO.png" type="image/x-icon">
     
 </head>
 <body>
 
-    <header>
-        <Nav>       
-            
-            <div id="header">
-                <a href="../index.html"><img class="logo" src="../resource/LOGO.png"/></a>
-                <div id="nomysub">
-                    <h2 class="nombrearq" >Asis Luciano<br>Guillermo</h2>
-                    <p class="subnombre">Arquitectura + Urbanismo</p>
-                </div>
-                <ul class="menu">
-                <li><a href="./ideologia.html">Ideologia</a></li>
-                <li><a href="./quien_soy.html">Quien soy</a></li>
-                <li><a href="./proyectos.html">Proyectos</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                </ul>    
+    <nav id="minavgris" class="navbar navbar-expand-lg  ">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+            <img class="logo" src="../resource/LOGO.png">
+        </a>
+        
+        <div class="row">
+        <h2 class="nombrearq" >Asis Luciano<br>Guillermo</h2>
+        <p class="subnombre">Arquitectura + Urbanismo</p>
+        </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul id="linknegro" class="navbar-nav ms-auto flex-nowrap">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./ideologia.html">Ideología</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./quien_soy.html">Quien soy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./proyectos.html">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
             </div>
-            
-        </Nav>
-    </header>
+        </div>
+    </nav>
+
+
+    
 
 
     <main>
 
-        <div id="contacto">
+
+        <div id="bootcontacto" class="row">
+            <div class="col-xs-12 col-md-6">
+                    <div class="form-group">
+                        <label for="email">Primer nombre:</label>
+                        <input type="text" class="form-control" 
+                        id="primernombre" placeholder="Ingrese su nombre" 
+                        name="nombre">
+                    </div>                       
+            </div>   
+            <div class="col-xs-12 col-md-6">
+                <div class="form-group">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" class="form-control" 
+                    id="apellido" placeholder="Ingrese su apellido" 
+                    name="apellido">
+                </div>                       
+            </div>   
+            <div class="col-xs-12 col-md-6">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" 
+                    id="email" placeholder="Ingrese email" 
+                    name="email">
+                </div>                       
+            </div>   
+            <div class="col-xs-12 col-md-6">
+                <div class="form-group">
+                    <label for="tel">Teléfono:</label>
+                    <input type="tel" class="form-control" 
+                    id="telefono" placeholder="Ingrese su Teléfono" 
+                    name="telefono">
+                </div>                       
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <div class="form-group">
+                    <label for="provincia">Provincia:</label>
+                    <input type="text" class="form-control" 
+                    id="provincia" placeholder="Provincia" 
+                    name="provincia">
+                </div>                       
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <div class="form-group">
+                    <label for="ciudad">Ciudad:</label>
+                    <input type="text" class="form-control" 
+                    id="ciudad" placeholder="Ciudad" 
+                    name="ciudad">
+                </div>                       
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <input type="text" class="form-control" 
+                id="msj" placeholder="mensaje" 
+                name="mensaje">
+            </div> 
+        </div>
+            
+
+
+
+        <!-- <div id="contacto">
             <div class="TituloContacto">
                 <h1 class="titcontacto">Déjanos saber cómo podemos ayudarte.</h1>
             </div>
@@ -77,7 +150,7 @@
             
             
         </div>
-        
+         -->
         
     </main>
 

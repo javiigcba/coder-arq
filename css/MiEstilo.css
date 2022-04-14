@@ -606,4 +606,47 @@ footer{
         letter-spacing: 0.10em;
         line-height: 150%
     }
+
+    
+
+}
+
+/*bootstrap*/
+
+#minav{
+    background-color: rgba(65, 65, 65, 0.5);
+    margin-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#minavgris{
+    background-color: rgba(244, 244, 244);
+    margin-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navbar-nav{
+    font-size: 20px;
+    
+    
+}
+.navbar-nav li a {
+    color: white;
+}
+.navbar-nav > li > a:hover{
+    color:rgb(255, 208, 0)
+}
+
+#linknegro li a {
+    color: black;
+}
+
+#linknegro > li > a:hover{
+    color:rgb(255, 208, 0)
+}
+
+#bootcontacto{
+    margin: 50px;
 }
